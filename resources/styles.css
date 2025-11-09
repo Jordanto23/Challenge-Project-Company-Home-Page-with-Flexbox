@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Momo Signature',  'Stack Sans Text', sans-serif;
     background-color:white;
 }
 
@@ -23,6 +23,7 @@ header {
 
 header h1 {
     text-align: center;
+    padding: 15px 0;
 }
 
 ul {
@@ -51,12 +52,13 @@ a:hover {
 
 .mission-statement {
     background-color: tan;
-    color: darkgreen;
+    color: black;
 }
 
 .mission-statement h2 {
     text-align: center;
-    padding: 20px 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .mission-statement p {
@@ -67,17 +69,18 @@ a:hover {
 }
 
 .training-programs {
-    background-color: tan;
+    background-color:tan;
+    padding: 100px;
 }
 
 .training-programs h2 {
-    color: darkgreen;
+    color: rgb(15, 15, 15);
     text-align: center;
-    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 .training-container {
-    color: darkgreen;
+    color: black;
     display: flex;
     flex-direction: column;
 }
@@ -103,16 +106,16 @@ a:hover {
 }
 
 .bodybuilding{
-    margin-right:  100px;
+    margin: 0 100px;
 }
 
 .pilates{
-    margin-right:  100px;
+    margin: 0 100px;
 }
 
 .team{
     background-color: tan;
-    color: darkgreen;
+    color: black;
 }
 
 .team h2{
@@ -123,10 +126,11 @@ a:hover {
     justify-content: center;
     gap: 50px;
     margin: 0px auto;
+    padding: 40px
 }
 
 footer {
     background-color:black;
     color: darkgreen;
-    padding: 10px;
+    padding: 15px;
 }
