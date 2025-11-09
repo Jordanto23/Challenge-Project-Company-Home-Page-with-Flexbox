@@ -1,5 +1,132 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+header {
+    background-color: black;
+    color: darkgreen;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+ul {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    /* use flex container for horizontal layout */
+    justify-content: center;
+    /* centers the list items horizontally */
+    gap: 5rem;
+    list-style: none;
+    /* remove bullets */
+    padding-left: 0;
+    /* ensure no indent */
+}
+
+a {
+
+    color: green;
+}
+
+
+a:hover {
+    color: darkgreen;
+}
+
+.mission-statement {
+    background-color: tan;
+    color: darkgreen;
+}
+
+.mission-statement h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.mission-statement p {
+    text-align: center;
+    max-width: 75ch;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.training-programs {
+    background-color: tan;
+}
+
+.training-programs h2 {
+    color: darkgreen;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.training-container {
+    color: darkgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.strength-training{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin:0 auto
+}
+
+.functional-training{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin:100px auto;
+    
+}
+
+.strength-training p, .functional-training p {
+    max-width: 50ch;
+    line-height: 1.6;
+}
+
+.bodybuilding{
+    margin-right:  100px;
+}
+
+.pilates{
+    margin-right:  100px;
+}
+
+.team{
+    background-color: tan;
+    color: darkgreen;
+}
+
+.team h2{
+    text-align: center;
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0px auto;
+}
+
+footer {
+    background-color:black;
+    color: darkgreen;
+    padding: 10px;
 }
